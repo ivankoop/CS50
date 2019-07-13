@@ -1,0 +1,10 @@
+{
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": "error",
+        "quotes": ["error", "double"],
+        "semi": ["error", "always"],
+        "no-console": ["error", {"allow": ["warn", "error", "info"]}]
+    },
+    "parser": "babel-eslint"
+}
